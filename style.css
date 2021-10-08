@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ ul,ol{
+     list-style: none;
+ }
+  a{
+      text-decoration: none;
+  }
+
+  .NavBar{
+      width: 680px;
+      height: 150px;
+  }
+
+  .NavBar{
+      display: flex;
+  }
+
+  .NavBar .nameSite{
+    width: 148px;
+    height: 32px;
+    left: 0px;
+    top: 13px;
+}
+   .NavBar .menu_lists{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+   }
+   .NavBar .menu_icons{
+    left: 0%;
+    right: 20%;
+    top: 10%;
+    bottom: 10.01%;
+   }
+   .NavBar .menu_type{
+    left: 2.38%;
+    right: 2.38%;
+    top: 0%;
+    bottom: 0%;
+   }
+
+   .NavBar .nameSite{
+       padding: 0 195px;
+   }
+   .NavBar .menu_list{
+       display: flex;
+       padding: 0 561px;
+    }
+
+    .NavBar .menu_type{
+        padding: 0 30px;
+    }
+    
+    .NavBar .menu_list_type{
+       padding: 0 21px;
+
+   }
+
+   .NavBar .menu_icon_type{
+       padding: 0 22px;
+   }
+    .NavBar .menu_type{
+        padding: 0 60px 0 0;
+    }
+
+    
+    .Section1{
+        position: relative;
+        background-image: url(./Photo/background.png);
+        background-image: no-repeat;
+        background-size: cover;
+        /* width: 100%; */
+        height: 100vh;
+    }   
+
+    .NavigationBar{
+        position: absolute;
+        z-index: 1234;
+    }
+
+    
+    
+    
+    .Section1 .Heydree{
+     height: 160px;
+     width: 635px;
+     left: 112.5px;
+     top: 40px;
+     }
+
+
